@@ -1,11 +1,9 @@
 # Colab already has torch, torchvision, numpy, pandas, pillow, opencv and matplotlib.
 # These are the extras. Exact versions used are printed at the top of each notebook.
-transformers>=4.49   # first versions with Qwen2.5-VL support
-accelerate>=0.34
-peft>=0.13           # LoRA adapters
-bitsandbytes>=0.43   # 4-bit loading (QLoRA) on the T4
-trl>=0.12
-datasets>=2.20
-qwen-vl-utils>=0.0.8
+transformers>=4.40
+accelerate>=0.30
 rapidfuzz>=3.6
+easyocr>=1.7.1
+kagglehub>=0.2.9
 gradio>=4.0
+openpyxl>=3.1
