@@ -1,0 +1,27 @@
+# Data, models and photos live on Google Drive, not in Git
+data/
+models/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.zip
+demo/photos_raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
